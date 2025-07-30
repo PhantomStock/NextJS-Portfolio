@@ -219,6 +219,18 @@ export default function Contact() {
         </div>
       </Section>
 
+      {/* Secure Email Notice */}
+      <Section variant="muted" className="py-4">
+        <Alert className="max-w-4xl mx-auto border-green-200 bg-green-50 dark:bg-green-950/20">
+          <Shield className="h-4 w-4 text-green-600" />
+          <AlertDescription className="text-green-800 dark:text-green-200">
+            <strong>Secure Email Delivery:</strong> All messages are delivered securely to{" "}
+            <code className="bg-green-100 dark:bg-green-900 px-1 rounded">wilcampos2003@gmail.com</code> via Resend's
+            verified email service. I monitor this inbox regularly and respond within 24 hours.
+          </AlertDescription>
+        </Alert>
+      </Section>
+
       {/* Main Contact Section */}
       <Section>
         <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
@@ -369,7 +381,7 @@ export default function Contact() {
                   {culturalTheme === "brazil"
                     ? "✓ Email verificado e monitorado regularmente"
                     : culturalTheme === "portugal"
-                      ? "✓ Email verificado e monitorado regularmente"
+                      ? "✓ Email verificado e monitorizado regularmente"
                       : culturalTheme === "japan"
                         ? "✓ 認証済みメール、定期的に監視"
                         : culturalTheme === "england"
