@@ -3,12 +3,7 @@
 export const projectImages: Record<string, string> = {
   // Example mappings - replace with your actual repo names
   "portfolio-website": "/projects/project-1.png",
-  "ecommerce-app": "/projects/project-2.png",
-  "social-media-dashboard": "/projects/project-3.png",
-  "task-manager": "/projects/project-4.png",
-  "blog-platform": "/projects/project-5.png",
-  "weather-app": "/projects/project-6.png",
-  "kanban-board": "/projects/kanban-project.png",
+  "NextJS-Portfolio": "/projects/NextJS-Portfolio.png",
   frmKanban: "/projects/kanban-project.png",
   "MDS-DA-Projeto": "/projects/kanban-project.png",
   // Add more mappings as needed
